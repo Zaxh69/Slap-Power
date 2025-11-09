@@ -1,6 +1,11 @@
+-- Instances: 14 | Scripts: 1 | Modules: 0 | Tags: 0
+local LMG2L = {};
+
+-- Players.LocalPlayer.PlayerGui.ScreenGui
 LMG2L["ScreenGui_1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 LMG2L["ScreenGui_1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 LMG2L["ScreenGui_1"].ResetOnSpawn = false 
+
 LMG2L["Frame_2"] = Instance.new("Frame", LMG2L["ScreenGui_1"]);
 LMG2L["Frame_2"]["BorderSizePixel"] = 0;
 LMG2L["Frame_2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
